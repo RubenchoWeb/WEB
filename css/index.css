@@ -1,3 +1,13 @@
 .titulo{
+    color: rgb(0, 0, 0);
+}
+
+.nombre{
     color: blue;
+    font-size: large;
+}
+
+.codigo{
+    color: rgb(87, 87, 233);
+    font-size: small;
 }
