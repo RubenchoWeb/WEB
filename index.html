@@ -8,39 +8,68 @@
     <title>Rubén Rodríguez 67000059</title>
 </head>
 <body>
-    <h1 class="nombre">Rubén Darío Rodríguez Mora</h1>
-    <p class="codigo">Codigo: 67000059</p>
-    <p class="titulo">Consola Linux</p>
-
-    <img src="./193652.png" alt="captura-consola" width="10%">
+    <header>
+        <nav class="topnav titulo-2">
+            <a class="active" href="#yo">Yo</a>
+            <a href="#linux">Linux</a>
+            <a href="#series">Series favoritas</a>
+            <a href="#formulario">Formulario</a>
+        </nav>
+    </header>
+    <main> 
+    <section id="yo">
+        <h1 class="titulo-1">Rubén Darío Rodríguez Mora</h1>
+        <p class="codigo">Codigo: 67000059</p>
+    </section>
+    <section id="linux">
+        <h2 class="titulo-2">Consola Linux</h2>
+        <img class="half-img" src="./img/193652.png" alt="captura-consola">
+    </section>
     
-    <h1 class="">SERIES FAVORITAS</h1>
-    <ol>
-        <li>The Walking Dead</li>
-        <li>Black Mirror</li>
-        <li>Mr. Robot</li>
-        <li>The Flash</li>
-    </ol>
+    <section id="series">
+        <h1 class="titulo-2">SERIES FAVORITAS</h1>
+        <ol>
+            <li>The Walking Dead</li>
+            <li>Black Mirror</li>
+            <li>Mr. Robot</li>
+            <li>The Flash</li>
+        </ol>
+    </section>
+    
+    <section>
+        <h2 class="titulo-2">Formulario</h2>
+        <form class="student-form">
+            <label for="nombres">Nombres:<br>
+                <input type="text" placeholder="Ingresa solo tus nombres" id="nombres" name="nombres" autocomplete="name" required><br>
+            </label>
 
-    <h2>Hice la conexión por ssh a GitHub</h2>
-    <h3>Cambio realizado en GitHub</h3>
+            <label for="apellidos">Apellidos:<br>
+            <input type="text" placeholder="Ingresa solo tus apellidos" id="apellidos" name="apellidos" autocomplete="family-name" required><br>
+            </label>
 
-    <h2 class="title-2">Formulario</h2>
-    <form class="student-form">
-        <label for="nombres">Nombres:</label><br>
-        <input type="text" placeholder="Ingresa solo tus nombres" id="nombres" name="nombres" autocomplete="name" required><br>
-        <label for="apellidos">Apellidos:</label><br>
-        <input type="text" placeholder="Ingresa solo tus apellidos" id="apellidos" name="apellidos" autocomplete="family-name" required><br>
-        <label for="telefono">Ingresa tu numero de telefono:</label><br>
-        <input type="tel" placeholder="Celular o fijo" id="telefono" name="telefono" autocomplete="tel" required><br>
-        <label for="birthday">Ingresa tu fecha de nacimiento:</label><br>
-        <input type="date" id="birthday" name="birthday" autocomplete="bday"><br>
-        <label for="email">Ingresa tu Email:</label><br>
-        <input type="email" id="email" name="email" autocomplete="email" required><br>
-        <input type="password" placeholder="Contraseña" id="password" required><br>
-        <input type="password" placeholder="Confirma tu Contraseña" id="confirm_password" required><br>
-        <button type="submit" class="">Registrar</button>
-      </form>
+            <label for="telefono">Ingresa tu numero de telefono:<br>
+            <input type="tel" placeholder="Celular o fijo" id="telefono" name="telefono" autocomplete="tel" required><br>
+            </label>
+
+            <label for="birthday">Ingresa tu fecha de nacimiento:<br>
+            <input type="date" id="birthday" name="birthday" autocomplete="bday"><br>
+            </label>
+            <label for="email" class="full-width">Ingresa tu Email:<br>
+            <input type="email" placeholder="example@mail.com" id="email" name="email" autocomplete="email" required><br>
+            </label>
+            <label for="password">Crea una contraseña
+                <input type="password" placeholder="Contraseña" id="password" name="password" required><br>    
+            </label>
+            <label for="confirm_password">Repite la contraseña
+                <input type="password" placeholder="Confirma tu Contraseña" id="confirm_password" name="confirm_password" required><br>
+            </label>
+
+            
+            <button type="submit" class="full-width btn-submit">Registrar</button>
+          </form>
+    </section>
+
+    </main>
 <script src="./js/script.js"></script>
 </body>
 </html>

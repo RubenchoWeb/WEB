@@ -1,13 +1,108 @@
-.titulo{
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: #f3f3f3;
+}
+
+main{
+    margin: 2% 5%;
+}
+section{
+    margin: 2% 0%;
+}
+
+label{
+    display: inline-block;
+    width: 40%;
+    color: white;
+}
+
+input{
+    width: 90%;
+    margin: 2% 0%;
+    border-radius: 25px;
+    border-color: white;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+ }
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #005abb;
+    color: white;
+  }
+
+.titulo-1{
     color: rgb(0, 0, 0);
 }
 
-.nombre{
-    color: blue;
+.titulo-2{
+    color: #005abb;
     font-size: large;
+    margin-bottom: 2%;
 }
-
 .codigo{
     color: rgb(87, 87, 233);
     font-size: small;
 }
+.half-img{
+    width:50%;
+}
+
+ol{
+    margin-left: 5%;
+}
+
+.student-form{
+    border-color: #222;
+    border-style:double;
+    border-radius: 3px;
+    padding: 2% 10%;
+    text-align: center;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.full-width{
+    width:85%;
+}
+.btn-submit{
+    background-color: #005abb;
+    color: white;
+    width: 85%;
+    margin: 2% 10%;
+}
+
+.btn-submit:hover{
+    background-color: white;
+    color: #005abb;
+}
+
+
